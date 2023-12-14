@@ -6,10 +6,14 @@
   background-color: #f6f6f6;
 }
 
-.background1 {
-  position: absolute;
+.text{
+  color:rgb(67, 120, 255);
+  font-weight: bold;
+  font-size: 15px;
+  font-family: consolas;
+  text-transform: uppercase;
 }
-
+  
 .top {
   display: flex;
   align-items: center;
@@ -20,12 +24,26 @@
   font-family: consolas;
   font-weight: bold;
 }
-
+  
+.globus {
+  padding-top: 30px;
+  padding-left: 200px;
+}
+  
+.background1 {
+  position: absolute;
+}
+  
 .h1 {
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   padding-left: 50px;
 }
-
+  
+  
+.background2 {
+  position: absolute;
+}
+  
 .button {
   padding:20px 20px;
   outline: none;
@@ -39,116 +57,98 @@
   margin-top: 35px;
   margin-left: 50px;
 }
-
-.globus {
-  padding-top: 30px;
-  padding-left: 200px;
-}
-
-.background2 {
-  position: absolute;
-}
-
-.backgroundfirewall {
+  
+  .backgroundfirewall {
   display: flex;
   align-items: center;
   position: absolute;
   padding-top: 60px;
 }
-
+  
+  
 .textfirewall {
   position: absolute;
   width: 250px;
   left: 180px;
   top: 50px;
-  }
-
+}
+  
 .cursorfirewall {
   position: absolute;
   left: 460px;
   top: 90px;
 }
-
-.firewall {
-  position: absolute;
-  left: 460px;
-  top: 90px;
-}
-
+  
 .backgrounddataanalysis {
   display: flex;
   align-items: center;
   position: absolute;
   padding-top: 180px;
 }
-
+  
 .textdataanalysis {
   position: absolute;
   width: 250px;
   left: 180px;
-  bottom: 20px;
+  bottom: 20px; 
 }
-
-.cursordataanalysis {
+  .cursordataanalysis {
   position: absolute;
   left: 460px;
   top: 200px;
 }  
-
+  
 .backgroundEncryption {
   display: flex;
   align-items: center;
   position: absolute;
   padding-top: 300px;
 }
-
+  
+  
 .textEncryption {
   position: absolute;
   width: 250px;
   left: 180px;
   top: 290px;
 }
-
-.cursorEncryption {
+  
+  
+.cursorEncryprion {
   position: absolute;
   left: 460px;
   top: 320px;
-} 
-
+}  
+  
 .backgroundProtection {
   display: flex;
   align-items: center;
   position: absolute;
   padding-top: 420px;
 }
-
+  
+  
+  
 .textProtection {
   position: absolute;
   width: 250px;
   left: 180px;
   top: 410px;
 }
-
+  
+  
 .cursorProtection {
   position: absolute;
   left: 460px;
   top: 440px;
 }  
-
-.text{
-  color:rgb(67, 120, 255);
-  font-weight: bold;
-  font-size: 15px;
-  font-family: consolas;
-  text-transform: uppercase;
-}
-
+  
 .mainbutton {
   position: absolute;
   left: 70px;
   top: 560px;
 }
-
+  
 .words{
   font-family: arial;
   text-align: center;
@@ -156,7 +156,7 @@
   margin-right: 50px;
   color: #B1BCC0;
 }
-
+  
 .logo {
   text-align: center;
   margin-top: 10px;
